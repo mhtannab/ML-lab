@@ -1,28 +1,17 @@
-Overview
+# Bank Customer Churn - (EDA)
 
-The dataset contains 10,127 rows and 21 columns (after cleaning). It tracks customer demographics and credit card usage to predict attrition.
+## Overview
+This project performs a comprehensive Exploratory Data Analysis (EDA) on the **Bank Churners** dataset. The goal is to identify patterns in customer behavior and find key factors that influence whether a customer stays with the bank or leaves (attrition).
 
+### Key Insights
+* **Retention Rate:** Approximately **83.9%** of customers are active, while **16.1%** have churned.
+* **Demographics:** The average customer age is **46 years**, with the majority falling between 40 and 50.
+* **Loyalty by Card Tier:** Interestingly, **Silver card holders** show the highest retention rate (~85%), followed by Blue card holders.
+* **Gender Trends:** Male customers have a slightly higher retention rate (**85.3%**) compared to female customers (**82.6%**).
+* **Activity:** A strong positive relationship exists between transaction frequency/amount and customer retention.
 
-Key Insights
-
-
-High Retention Rates: Approximately 83.93% of customers are "Existing Customers," while about 16% have attrited.
-
-Age Profile: Most customers are in their middle age, with the majority falling between 41 and 52 years old (Mean: 46).
-
-Card Category Influence: Contrary to some expectations, Silver card holders have the highest retention rate (~85.2%), while Platinum card holders show a slightly lower retention rate.
-
-Gender Trends: Male passengers have a slightly higher retention rate (85.3%) compared to females (82.6%).
-
-Financial Relationship: There is a positive correlation between transaction volume and retention; customers who use their cards for higher transaction amounts are more likely to stay.
-
-Visual Insights
-
-
-Retention Rate by Card Category: Shows how likely customers are to stay based on their card tier.
-
-Retention Rate by Gender: Compares the loyalty of male vs. female customers.
-
-Age Distribution: A histogram showing the concentration of the bank's customer base by age.
-
-Age vs. Credit Limit: A scatter plot exploring how credit limits are distributed across ages and how it relates to attrition.
+## Visualizations Included
+1. **Retention Rate by Card Category:** Comparison of loyalty across card tiers.
+2. **Retention Rate by Gender:** Breakdown of churn by gender.
+3. **Age Distribution:** Histogram of the customer base age.
+4. **Age vs Credit Limit:** Scatter plot identifying financial profiles and attrition.
