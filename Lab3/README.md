@@ -1,7 +1,11 @@
 Overview
+
 The dataset contains 10,127 rows and 21 columns (after cleaning). It tracks customer demographics and credit card usage to predict attrition.
 
+
 Key Insights
+
+
 High Retention Rates: Approximately 83.93% of customers are "Existing Customers," while about 16% have attrited.
 
 Age Profile: Most customers are in their middle age, with the majority falling between 41 and 52 years old (Mean: 46).
@@ -13,6 +17,8 @@ Gender Trends: Male passengers have a slightly higher retention rate (85.3%) com
 Financial Relationship: There is a positive correlation between transaction volume and retention; customers who use their cards for higher transaction amounts are more likely to stay.
 
 Visual Insights
+
+
 Retention Rate by Card Category: Shows how likely customers are to stay based on their card tier.
 
 Retention Rate by Gender: Compares the loyalty of male vs. female customers.
